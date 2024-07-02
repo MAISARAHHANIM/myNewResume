@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="resumecss.css">
+  </head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+</style>
+</head>
+<body>
+
+    <h2 align="center">My E-Resume</h2>
+
+<div class="scrollmenu">
+  <a href="D:\Microsoft VS Code\My Coding\index.html">Home</a>
+  <a href="D:\Microsoft VS Code\My Coding\personal.html">Personal</a>
+  <a href="D:\Microsoft VS Code\My Coding\skill.html">Skill</a>
+  <a href="D:\Microsoft VS Code\My Coding\experience.html">Experience</a>
+  <a href="D:\Microsoft VS Code\My Coding\education.html">Educational</a>
+  <a href="D:\Microsoft VS Code\My Coding\contact.html">Contact</a>
+
+</div>
+
+<h2>Education</h2>
+
+
+
+<br>
+  <div align="center">
+    
+    
+    
+    
+    </div>
+
+    
+
+    <div class="row">
+      <div class="column" style="background-color:#6c8ee5;">
+        <b>
+          <h2>School </h2>
+          <p>School: SMA Khairiah & SMK Seri Nilam</p>  
+        <p>Education: Top 5 student</p>
+        <p>Club: Kadet Remaja Sekolah </p>
+        <p>Position: Pengawas Pembimbing Rakan Sebaya</p>
+        <br>
+        <h2>Diploma </h2>
+        <p>University: UNISZA</p>  
+        <p>Successfully completed Diploma in International Trade </p>
+       
+        
+      
+        
+      </div>
+      <div class="column" style="background-color:#c822ed;">
+        
+        <img src="uniszalogo.png" style="width:85%">
+      </div>
+
+    </div>    
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+</body>
+</html>
